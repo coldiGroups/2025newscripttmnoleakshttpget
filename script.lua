@@ -142,7 +142,15 @@ if RunService:IsClient() then
 
             button.MouseButton1Click:Connect(function()
                 -- Print ASCII art to the output (once per click)
-                print("███       ▄▄▄▄███▄▄▄▄   \n▀█████████▄ ▄██▀▀▀███▀▀▀██▄ \n   ▀███▀▀██ ███   ███   ███ \n    ███   ▀ ███   ███   ███ \n    ███     ███   ███   ███ \n    ███     ███   ███   ███ \n    ███     ███   ███   ███ \n   ▄████▀    ▀█   ███   █▀  ")
+                print("   
+▀█████████▄ ▄██▀▀▀███▀▀▀██▄ 
+   ▀███▀▀██ ███   ███   ███ 
+    ███   ▀ ███   ███   ███ 
+    ███     ███   ███   ███ 
+    ███     ███   ███   ███ 
+    ███     ███   ███   ███ 
+   ▄████▀    ▀█   ███   █▀  
+                            ")
 
                 -- Fire the RemoteEvent to spawn the model for the selected player
                 local spawnEvent = ReplicatedStorage:WaitForChild("SpawnModelRequest")
